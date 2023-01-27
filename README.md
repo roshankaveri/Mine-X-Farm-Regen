@@ -1,22 +1,22 @@
-# **Mine-X-Farm-Regen**
+# **Mine-X-Farm-Regen Wiki**
 Regenerate All Ores , Ore Blocks And Wood With Custom Delay , Drop , Regions
 
-## **INFORMATION**
+## **Information**
 Mine X Farm Regen Allows You To Easily Set Up Areas Where Blocks Regenerate After Being Broken.   
 You Have Complete Control Over What Blocks To Regen And Their Delays.  
 This Plugin Needs No Dependencies And Is Verified To Work On 1.12-1.19. 
   
-## **DOWNLOAD**
+## **Download**
 Current Version ➡️ ``Mine Farm Regen 3.0``   
 Spigot ➡️ [Download](https://www.spigotmc.org/resources/mine-x-farm-regen%E2%9B%8F%EF%B8%8F-1-12-1-19.107060/)
   
 
-## **INSTALLATION**
+## **Installation**
 Download The Plugin And Upload It To The Plugins Folder And Restart Your Server  
 This Plugin Will Only Work On Versions 1.12 -> 1.19.3 
    
 
-## **REGIONS**
+## **Regions**
 Regions Are Cuboidal Boxes Which Are Created Between Selected Pos1 and Pos2  
 Only The Blocks Inside These Cuboidal Boxes Will Be Regenerated.  
 
@@ -57,7 +57,25 @@ Using Regen GUI
 + Blocks
  Coal Block, Iron Block, Gold Block, Diamond Block, Redstone Block, Lapis Block, Emerald Block, Netherite Block , Stone, Deepslate.
 + Woods
- oak, spruce, birch, jungle, acacia, dark oak.
+ Oak, Spruce, Birch, Jungle, Acacia, DarkOoak.  
+
+## Other Commands
++ ``/regen wand`` -> Gives Regen Wand
++ ``/regen reload`` -> Reloads The Plugin
++ ``/regen regions reload`` -> Reloads Region.yml
++ ``/regen help -> Shows Available Commands
++ ``/regen version -> Shows Plugin Version
+
+## Permission Nodes
++ ``regen.reload``    -> Allow To Reload The Plugins
++ ``regen.toggle``    -> Allow To Turn On / Off Block Regeneration
++ ``regen.positions`` -> Allow To Select Pos1 And Pos2
++ ``regen.create``    -> Allow To Create New Regions
++ ``regen.delete``    -> Allow To Delete Existing Regions
++ ``regen.regions``   -> Allow To Reload Regions
++ ``regen.gui``       -> Allow To Open Regen GUI
++ ``regen.wand``      -> Allows To Get Wand
+
 
 ## Editing The Config File
 ``Block_Regen: true`` Regeneration On / OFF  
